@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c1c108-21e2-4014-81ed-beab7f35db85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base-demo/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/base-demo.py" afterPath="$PROJECT_DIR$/base-demo/base-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/case-demo.py" afterPath="$PROJECT_DIR$/base-demo/case-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dict-demo.py" afterPath="$PROJECT_DIR$/base-demo/dict-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fun-demo.py" afterPath="$PROJECT_DIR$/base-demo/fun-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/list-demo.py" afterPath="$PROJECT_DIR$/base-demo/list-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/loop-demo.py" afterPath="$PROJECT_DIR$/base-demo/loop-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/string-demo.py" afterPath="$PROJECT_DIR$/base-demo/string-demo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tuple-demo.py" afterPath="$PROJECT_DIR$/base-demo/tuple-demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance-demo/Calc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advance-demo/import-demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/count.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/base-demo/fun-demo.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advance/__init__.py" afterPath="$PROJECT_DIR$/advance-demo/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python-demo$case_demo.coverage" NAME="case-demo Coverage Results" MODIFIED="1481614620065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base-demo" />
+    <SUITE FILE_PATH="coverage/python-demo$import_demo.coverage" NAME="import-demo Coverage Results" MODIFIED="1481619588209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advance-demo" />
     <SUITE FILE_PATH="coverage/python-demo$tuple_demo.coverage" NAME="tuple-demo Coverage Results" MODIFIED="1481611876739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-demo$input_fun.coverage" NAME="input-fun Coverage Results" MODIFIED="1481598404579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-demo$loop_demo.coverage" NAME="loop-demo Coverage Results" MODIFIED="1481606489790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -31,6 +27,7 @@
     <SUITE FILE_PATH="coverage/python-demo$python_demo.coverage" NAME="python-demo Coverage Results" MODIFIED="1481592623957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-demo$fun_demo.coverage" NAME="fun-demo Coverage Results" MODIFIED="1481598995490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python-demo$string_demo.coverage" NAME="string-demo Coverage Results" MODIFIED="1481599370232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python-demo$filereader_demo.coverage" NAME="filereader-demo Coverage Results" MODIFIED="1481616157309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advance-demo" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -78,8 +75,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advance/__init__.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advance-demo/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -88,18 +85,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loop-demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-demo/loop-demo.py">
+      <file leaf-file-name="filereader-demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advance-demo/filereader-demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string-demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-demo/string-demo.py">
+      <file leaf-file-name="Calc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advance-demo/Calc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import-demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advance-demo/import-demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/count.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-demo/base-demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
@@ -118,6 +145,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yinyayun" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -135,6 +167,12 @@
         <option value="$PROJECT_DIR$/tuple-demo.py" />
         <option value="$PROJECT_DIR$/dict-demo.py" />
         <option value="$PROJECT_DIR$/list-demo.py" />
+        <option value="$PROJECT_DIR$/advance/filereader-demo.py" />
+        <option value="$PROJECT_DIR$/data/count.txt" />
+        <option value="$PROJECT_DIR$/advance-demo/filereader-demo.py" />
+        <option value="$PROJECT_DIR$/advance-demo/class-demo.py" />
+        <option value="$PROJECT_DIR$/advance-demo/Calc.py" />
+        <option value="$PROJECT_DIR$/advance-demo/import-demo.py" />
       </list>
     </option>
   </component>
@@ -186,6 +224,20 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="data">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="python-demo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="base-demo">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -200,7 +252,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="advance">
+            <PATH_ELEMENT USER_OBJECT="advance-demo">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -225,7 +277,7 @@
       <recent name="C:\workspace\pythons\python-demo\docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.case-demo">
+  <component name="RunManager" selected="Python.import-demo">
     <configuration default="false" name="list-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,24 +292,6 @@
       <module name="python-demo" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\git-rep\python-demo\base-demo\list-demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="loop-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-demo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\git-rep\python-demo\base-demo\loop-demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -280,24 +314,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="tuple-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-demo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\git-rep\python-demo\base-demo\tuple-demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="case-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,6 +328,42 @@
       <module name="python-demo" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base-demo/case-demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="filereader-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advance-demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advance-demo/filereader-demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="import-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advance-demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advance-demo/import-demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -532,18 +584,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.list-demo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.loop-demo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dict-demo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tuple-demo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.case-demo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dict-demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.case-demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.filereader-demo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.import-demo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.case-demo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.list-demo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dict-demo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tuple-demo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.loop-demo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.import-demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.filereader-demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.case-demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.list-demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dict-demo" />
       </list>
     </recent_temporary>
   </component>
@@ -561,6 +613,14 @@
       <option name="presentableId" value="Default" />
       <updated>1481592173068</updated>
     </task>
+    <task id="LOCAL-00001" summary="提交文件">
+      <created>1481616807651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481616807651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -592,6 +652,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,26 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-demo/base-demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-demo/fun-demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="3366" column="8" lean-forward="false" selection-start-line="3366" selection-start-column="8" selection-end-line="3366" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -734,10 +782,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advance/__init__.py">
+    <entry file="file://$PROJECT_DIR$/advance-demo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-demo/base-demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="360" column="81" lean-forward="true" selection-start-line="360" selection-start-column="81" selection-end-line="360" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/count.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance-demo/filereader-demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance-demo/Calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advance-demo/import-demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
