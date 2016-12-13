@@ -2,6 +2,9 @@
 
 map={1:"a",2:"b",3:"c"}
 print map
+print dict(zip(("java","c++","c"),(1000,2000,3000)))
+print dict([["java",1000],["c++",2000]])
+print  dict(java=1000,c = 2000)
 
 '''
 读取字典元素

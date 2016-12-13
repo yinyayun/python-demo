@@ -16,3 +16,20 @@ print array
 读取元祖某个下标以后的数据
 '''
 print array[2:]
+print array[2:3]
+
+#是否包含
+if 123 in array:
+    print "元祖：%s存在元素:%s"%(array,123)
+if 234 not in array:
+    print "元祖：%s不存在元素:%s" % (array, 234)
+
+#
+array2=array*2
+print "元祖x2动作:%s"%str(array2)
+
+
+#切片动作
+print "切片动作"
+print "翻转:%s"%str(array[::-1])
+print "跳跃取值:%s"%str(array[::2])

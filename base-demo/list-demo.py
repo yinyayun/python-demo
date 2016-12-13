@@ -47,3 +47,9 @@ print "list1中allen元素所在位置:%d"%list1.index("allen")
 读取list某个下标以后的数据
 '''
 print "list1下标2以后的数据：%s"%list1[2:]
+
+
+#尝试使用map,filter构建
+print "尝试使用map,filter"
+print map(lambda x:x,range(6))
+print filter(lambda x:x>3,range(6))
