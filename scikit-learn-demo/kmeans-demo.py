@@ -1,7 +1,8 @@
 #coding:utf-8
 
-#from matplotlib.font_manager import FontProperties
-#font=FontProperties
+
+from matplotlib.font_manager import FontProperties
+font = FontProperties(fname=r"c:\windows\fonts\msyh.ttc", size=10)
 import numpy as np
 import matplotlib.pyplot as plt
 X0 = np.array([7, 5, 7, 3, 4, 1, 0, 2, 8, 6, 5, 3])
